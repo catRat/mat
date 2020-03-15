@@ -5,7 +5,7 @@ int main(void)
 	FILE *fp;
 	const char* SS = 
 		"\\documentclass[oneside]{book}\n"
-		"\\usepackage{xeCJK, indentfirst, makeidx}\n"
+		"\\usepackage{xeCJK, indentfirst, makeidx, listings, amsmath}\n"
 		"\\usepackage[breaklinks, colorlinks, linkcolor=black, citecolor=black, urlcolor=black]{hyperref}\n"
 		"\\setCJKmainfont[BoldFont=Noto Serif CJK SC Bold, ItalicFont=Noto Serif CJK SC Light]{Noto Serif CJK SC}\n"
 		"\\setCJKsansfont[BoldFont=Noto Sans CJK SC Bold, ItalicFont=Noto Sans CJK SC Light]{Noto Sans CJK SC}\n"
