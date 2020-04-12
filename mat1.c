@@ -5,7 +5,7 @@ int main(void)
 	FILE *fp;
 	const char* SS = 
 		"\\documentclass[oneside]{book}\n"
-		"\\usepackage{xeCJK, indentfirst, makeidx, listings, amsmath}\n"
+		"\\usepackage{xeCJK, indentfirst, makeidx, listings, amsmath, amssymb}\n"
 		"\\usepackage[breaklinks, colorlinks, linkcolor=black, citecolor=black, urlcolor=black]{hyperref}\n"
 		"\\setCJKmainfont[BoldFont=Noto Serif CJK SC Bold, ItalicFont=Noto Serif CJK SC Light]{Noto Serif CJK SC}\n"
 		"\\setCJKsansfont[BoldFont=Noto Sans CJK SC Bold, ItalicFont=Noto Sans CJK SC Light]{Noto Sans CJK SC}\n"
@@ -13,6 +13,7 @@ int main(void)
 		"\\setlength{\\parindent}{2em}\n"
 		"\\usepackage[hmargin=1.25in, vmargin=1in]{geometry}\n"
 		"\\usepackage{enumitem}\n"
+		"\\newtheorem{dingyi}{定义}[section]\n\\newtheorem{dingli}{定理}[section]\n"
 		"\\newcommand{\\tabincell}[2]{\\begin{tabular}{@{}#1@{}}#2\\end{tabular}}\n"
 		"\\makeindex\n"
 		"\\title{xxx}\n"
